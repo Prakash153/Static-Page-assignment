@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  /* background-color: red; */
+  height: auto;
+}
+.left {
+  display: inline-block;
+  position: relative;
+  /* background-color: green; */
+  width: auto;
+  height: auto;
+  left: 150px;
+  text-align: center;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: 150px;
+  text-align: center;
+
+  /* background-color: aqua; */
+}
+.left-heading {
+  font-size: 100px;
+  color: rgb(191, 143, 81);
+}
+.right-heading {
+  font-size: 100px;
+  color: rgb(191, 143, 81);
+}
+.left-para {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  text-align: center;
+  justify-content: space-between;
+  height: auto;
+  margin-top: 20px;
+
+  font-size: 10px;
+}
+.right-para {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  justify-content: space-evenly;
+  text-align: center;
+  height: auto;
+  margin-top: 20px;
+
+  font-size: 10px;
+}
+
+.section-2 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  /* background-color: red; */
+  height: auto;
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+.center {
+  display: inline-block;
+  position: relative;
+  /* background-color: green; */
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.center-para {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  justify-content: center;
+  margin-top: 20px;
+  text-justify: distribute-all-lines;
+  height: auto;
+
+  font-size: 10px;
+}
+.center-heading {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(191, 143, 81);
+}
+
+.section-3 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  /* background-color: red; */
+  height: auto;
+  margin: 20px auto 20px auto;
+}
+
+.left-bottom {
+  display: inline-block;
+  position: relative;
+  /* background-color: green; */
+  width: 20%;
+  left: 250px;
+  height: 40%;
+}
+
+.right-bottom {
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  right: 250px;
+  height: 40%;
+
+  text-align: center;
+}
+.left-bottom-h {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.para {
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+
+.top-para {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  justify-content: center;
+  margin-top: 10px;
+  text-justify: distribute-all-lines;
+  height: auto;
+
+  font-size: 10px;
+}
+.bottom-para {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  justify-content: center;
+  margin-top: 10px;
+  text-justify: distribute-all-lines;
+  height: auto;
+
+  font-size: 10px;
+}
+.top-heading {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(191, 143, 81);
+}
+
+.bottom-heading {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10px;
+  color: rgb(191, 143, 81);
+}
